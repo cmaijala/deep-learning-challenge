@@ -1,5 +1,10 @@
 # deep-learning-challenge
 
+![kevin-ku-w7ZyuGYNpRQ-unsplash](https://github.com/user-attachments/assets/fe92ccaf-283f-4170-929d-c557ac7b3f72)
+
+Photo by <a href="https://unsplash.com/@ikukevk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kevin Ku</a> on <a href="https://unsplash.com/photos/closeup-photo-of-eyeglasses-w7ZyuGYNpRQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
+
 
 # Performance Report: Deep Learning Model for Alphabet Soup
 ### Overview of the Analysis
@@ -51,8 +56,9 @@ Consider using a random forest or gradient boosting model for this classificatio
 
 
 
-
-
+### References:
+ * OpenAI. ChatGPT. Retrieved from https://chat.openai.com. Assistance provided in the development of clustering techniques and PCA analysis
+ * IRS. Tax Exempt Organization Search Bulk Data Downloads. https://www.irs.gov/Links to an external site.
 
 
 

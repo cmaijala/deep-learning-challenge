@@ -11,7 +11,7 @@ The purpose of this analysis is to build and evaluate a deep learning model to p
   * Target Variable:
 
     * IS_SUCCESSFUL: Indicates whether the funding was successful.
-  *Features:
+  * Features:
 
     * Categorical variables such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, and others.
     * Numerical variables like ASK_AMT.

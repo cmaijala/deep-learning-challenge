@@ -7,38 +7,53 @@ The purpose of this analysis is to build and evaluate a deep learning model to p
 
 ### Results
 #### Data Preprocessing
-Target Variable:
 
-IS_SUCCESSFUL: Indicates whether the funding was successful.
-Features:
+  * Target Variable:
 
-Categorical variables such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, and others.
-Numerical variables like ASK_AMT.
-Removed Variables:
+    * IS_SUCCESSFUL: Indicates whether the funding was successful.
+  *Features:
 
-EIN and NAME: These identifiers do not contribute meaningful information for predictions.
-Compiling, Training, and Evaluating the Model
-Model Architecture:
+    * Categorical variables such as APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, and others.
+    * Numerical variables like ASK_AMT.
+      
+  * Removed Variables:
 
-Neurons:
-Layer 1: 80 neurons to capture a broad range of features.
-Layer 2: 30 neurons for refined learning.
-Activation Functions:
-ReLU for hidden layers to handle non-linear relationships.
-Sigmoid for the output layer to generate probabilities for binary classification.
-Reasoning: This architecture balances model complexity and computational efficiency.
-Model Performance:
+    * EIN and NAME: These identifiers do not contribute meaningful information for predictions.
+   
+      
+### Compiling, Training, and Evaluating the Model
+  * Model Architecture:
 
-The model did not meet the target accuracy of 75%, achieving approximately 72%.
-Steps to Improve Performance:
+    * Neurons:
+      * Layer 1: 80 neurons to capture a broad range of features.
+      * Layer 2: 30 neurons for refined learning.
+    * Activation Functions:
+      * ReLU for hidden layers to handle non-linear relationships.
+      * Sigmoid for the output layer to generate probabilities for binary classification.
+    * Reasoning: This architecture balances model complexity and computational efficiency.
+  * Model Performance:
 
-Experimented with different numbers of neurons and layers.
-Tried additional epochs during training to improve learning.
-Adjusted the learning rate and optimizer settings.
-Applied dropout layers to reduce overfitting.
-Summary
+    * The model did not meet the target accuracy of 75%, achieving approximately 72%.
+  * Steps to Improve Performance:
+
+    * Experimented with different numbers of neurons and layers.
+    * Tried additional epochs during training to improve learning.
+    * Adjusted the learning rate and optimizer settings.
+    * Applied dropout layers to reduce overfitting.
+      
+### Summary
 The deep learning model achieved an accuracy of 72%, falling short of the target performance. While the model shows potential, improvements may require advanced techniques or alternative approaches.
 
 ### Recommendation:
 Consider using a random forest or gradient boosting model for this classification problem. These models handle imbalanced datasets well, provide feature importance insights, and can achieve higher accuracy with less tuning compared to neural networks.
+
+
+
+
+
+
+
+
+
+
 
